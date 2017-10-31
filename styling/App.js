@@ -5,14 +5,14 @@ import {
   Text,
   View
 } from 'react-native';
+import Navigator from './src/navigator/tab.js'
 import Lists from './src/components/list.js'
+import Card from './src/components/card.js'
 
 export default class App extends Component<{}> {
   render() {
     return (
-      <View>
-        <Lists/>
-      </View>
+      <Navigator/>
     );
   }
 }
